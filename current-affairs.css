@@ -1,0 +1,55 @@
+/* google font family */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner&family=Finlandica:ital,wght@1,600&family=Gentium+Book+Plus:ital,wght@0,700;1,700&family=Lato:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=Poppins:wght@300;500&family=Raleway:wght@200&family=Roboto&family=Roboto+Slab:wght@300&display=swap');
+#body{
+    font-family: 'Gentium Book Plus', serif;
+}
+/* body scrollbar  */
+#body::-webkit-scrollbar{
+width: 14px;
+}
+#body::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(to top , orange , rgb(230, 17, 194) , lime );
+  border-radius: 12px;
+    }
+/* nav style  */
+#navImage{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    animation: logo alternate infinite linear forwards 0.4s;
+}
+@keyframes logo {
+    0%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/* another styles  */
+#authorImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 4px;
+}
+#gridDisplay{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+#showAll:hover{cursor: pointer;}
+.catagoryText:hover{cursor: pointer;}
+.fa-star , .fa-star-half-stroke {
+color: gold;
+}
+#news:hover , #newsBlog:hover{
+    cursor: pointer;
+}
+#navLogo{
+    margin-top: -15px;
+    height: 100px;
+    width: 100px;
+}
+#spanText:hover{
+    cursor: pointer;
+}
